@@ -1,0 +1,28 @@
+1- ls /bin
+2- ls /tmp
+3- 
+
+-6 ls /dev/t*C1
+-7 ls -a /
+
+-9 ls -R /usr
+-10 cd /tmp
+-11 pwd
+-12 date
+-13 cd /$HOME
+-14 pwd
+-16 rm -R PRUEBA
+-17 mkdir -p dir1/dir11/ && mkdir dir2 && mkdir -p dir3/dir31/dir311 && mkdir dir3/dir31/dir312
+-18 sudo cp /etc/mke2fs.conf /$HOME/PRUEBA/mensaje
+-19 cp mensaje dir1 && cp mensaje dir2 && cp mensaje dir3
+-20 ls -R
+-21 sudo cp -R /etc/rc.d /home/alberto/Desktop/dir3/dir31/
+
+-23 sudo cp -r /home/prueba   /home/alberto/Desktop/dir1/dir11
+-24 mv -r dir31 home/alberto/Desktop/dir2/
+-25 ls -R /home
+-26 mv mensaje .mensaje
+-27 rm -R dir1
+
+-30 mv dir3/dir31/dir312 .
+
