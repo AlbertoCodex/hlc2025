@@ -24,5 +24,26 @@
 -26 mv mensaje .mensaje
 -27 rm -R dir1
 
--30 mv dir3/dir31/dir312 .
+-30 mv dir3/dir31/dir312 dir3
 
+
+-41 drwxrwxr-x 2 alberto alberto 4096 Sep 26 16:27 dir2
+-42 chmod -www dir2
+-43 chmod 155 dir2
+-44 d--xr-xr-x 2 alberto alberto 4096 Sep 26 16:27 dir2
+-45 no tienes permisos
+-46 ahora si puedes
+-47 los mismo que los del directorio
+-48 /home/alberto/Desktop/prueba/dir3
+-49 drwxrwxr-x 2 alberto alberto 4096 Sep 26 16:27 dir3
+
+-62 ls -l /dev/tt*
+-63 ls /usr/bin
+
+-66 ls -a /usr/include/.h*
+
+-74 cat /etc/motd
+
+-92 whoami
+
+-97 fdisk -l 
